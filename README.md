@@ -11,5 +11,27 @@
 npm install @mohayonao/remote-fluxx
 ```
 
+## API
+### Server
+- `constructor(socket: Socket, namespace: string)`
+
+#### Instance attributes
+- `socket: Socket`
+- `namespace: string`
+- `clients: object[]`
+
+#### Instance methods
+- `sendAction(address: string, data: any):  void`
+
+### Client
+- `constructor(socket: Socket, namespace: string)`
+
+#### Instance attributes
+- `socket: Socket`
+- `namespace: string`
+
+#### Instance methods
+- `sendAction(address: string, data: any):  void`
+
 ## LICENSE
 MIT
