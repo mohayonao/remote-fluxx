@@ -1,7 +1,7 @@
 {
   "name": "@mohayonao/remote-fluxx",
   "description": "simple implementation of Flux architecture via network",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "mohayonao <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/remote-fluxx/issues"
