@@ -1,12 +1,14 @@
 {
   "name": "@mohayonao/remote-fluxx",
   "description": "simple implementation of Flux architecture via network",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "mohayonao <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/remote-fluxx/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mohayonao/fluxx": "^0.1.1"
+  },
   "devDependencies": {
     "babel": "^5.8.3",
     "babel-eslint": "^3.1.26",
