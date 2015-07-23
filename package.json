@@ -1,0 +1,28 @@
+{
+  "name": "@mohayonao/remote-fluxx",
+  "description": "simple implementation of Flux architecture via network",
+  "version": "0.0.0",
+  "author": "mohayonao <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/remote-fluxx/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
+  "homepage": "https://github.com/mohayonao/remote-fluxx/",
+  "keywords": [
+    "flux",
+    "remote"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mohayonao/remote-fluxx.git"
+  },
+  "scripts": {}
+}
