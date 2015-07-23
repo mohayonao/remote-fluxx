@@ -9,7 +9,7 @@ export default class Server extends fluxx.Router {
     this.namespace = namespace;
     this.clients = [];
 
-    socket.on("connect", ({ client }) => {
+    socket.on("connect", (client) => {
       client.once("/fluxx/join", ({ namespace }) => {
         if (this.namespace === namespace) {
           this[JOIN](client);

@@ -33,7 +33,7 @@ describe("fluxx", () => {
       server.emit = sinon.spy(server.emit.bind(server));
       client.join = sinon.spy();
 
-      socket.emit("connect", { client });
+      socket.emit("connect", client);
       client.emit("/fluxx/join", { namespace: "foo" });
 
       return [ server, client ];
@@ -57,7 +57,7 @@ describe("fluxx", () => {
 
       server[JOIN] = sinon.spy();
 
-      socket.emit("connect", { client });
+      socket.emit("connect", client);
       client.emit("/fluxx/join", "bar");
 
       assert(server[JOIN].callCount === 0);
