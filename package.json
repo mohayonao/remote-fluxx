@@ -6,7 +6,9 @@
   "bugs": {
     "url": "https://github.com/mohayonao/remote-fluxx/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mohayonao/fluxx": "^0.1.1"
+  },
   "devDependencies": {
     "babel": "^5.8.3",
     "babel-eslint": "^3.1.26",
